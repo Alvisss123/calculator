@@ -10,7 +10,11 @@ num2 = st.number_input("Enter second number", value=0.0)
 
 # Operation selection
 operation = st.selectbox(
-    "Choose operation", ["Add", "Subtract", "Multiply", "Divide", "Sin()"]
+    "Choose operation", ["Add", 
+                         "Subtract", 
+                         "Multiply", 
+                         "Divide", 
+                         "Sin()"]
 )
 
 # Calculate
